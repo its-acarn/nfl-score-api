@@ -1,0 +1,25 @@
+using System;
+using Microsoft.AspNetCore.Mvc;
+using nflScoreApi.Models;
+
+namespace nflScoreApi.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class ScoreController : ControllerBase
+    {
+        public ScoreController()
+        {
+        }
+
+        [HttpPost]
+        public Score guessScore(int homeScore, int awayScore)
+        {
+            return new Score
+            {
+                HomeScore = homeScore,
+                AwayScore = awayScore
+            };
+        }
+    }
+}
