@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andrewcarnaghan/Desktop/projects/nflScore/nflScoreApi/nflScoreApi.csproj": {}
+    "/Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/nflScoreApi.csproj": {}
   },
   "projects": {
-    "/Users/andrewcarnaghan/Desktop/projects/nflScore/nflScoreApi/nflScoreApi.csproj": {
+    "/Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/nflScoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andrewcarnaghan/Desktop/projects/nflScore/nflScoreApi/nflScoreApi.csproj",
+        "projectUniqueName": "/Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/nflScoreApi.csproj",
         "projectName": "nflScoreApi",
-        "projectPath": "/Users/andrewcarnaghan/Desktop/projects/nflScore/nflScoreApi/nflScoreApi.csproj",
+        "projectPath": "/Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/nflScoreApi.csproj",
         "packagesPath": "/Users/andrewcarnaghan/.nuget/packages/",
-        "outputPath": "/Users/andrewcarnaghan/Desktop/projects/nflScore/nflScoreApi/obj/",
+        "outputPath": "/Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/andrewcarnaghan/.nuget/NuGet/NuGet.Config"

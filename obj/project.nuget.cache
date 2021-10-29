@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0G8PjrZpU5bui8GaF+tZl05F+WwsfZFSnYSiT8XBMJpXt/a/MlFK9IraTpatpMpnG0D4m036Yb+tF1rgU7mY4g==",
+  "dgSpecHash": "2mw+hR7Jx4KNE842IGBKM3oFYPp1KC40QIRLv9pUiK9b0eknFDdZJNONCj3VuVCiimc3oWCQquW7zdbU/qBAjQ==",
   "success": true,
-  "projectFilePath": "/Users/andrewcarnaghan/Desktop/projects/nflScore/nflScoreApi/nflScoreApi.csproj",
+  "projectFilePath": "/Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/nflScoreApi.csproj",
   "expectedPackageFiles": [
     "/Users/andrewcarnaghan/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/andrewcarnaghan/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

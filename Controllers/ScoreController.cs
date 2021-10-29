@@ -17,6 +17,7 @@ namespace nflScoreApi.Controllers
         {
             return new Score
             {
+                Id = Guid.NewGuid(),
                 HomeScore = homeScore,
                 AwayScore = awayScore
             };
