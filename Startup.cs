@@ -23,8 +23,7 @@ namespace nflScoreApi
         {
 
             services.AddControllers();
-            services.AddDbContext<nflScoreContext>(opt =>
-                                               opt.UseInMemoryDatabase("TodoList"));
+            services.AddDbContext<nflScoreContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"))););
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "nflScoreApi", Version = "v1" });
