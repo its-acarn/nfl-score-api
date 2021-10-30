@@ -6,11 +6,13 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using nflScoreApi.Models;
+using Npgsql;
 
 namespace nflScoreApi
 {
     public class Startup
     {
+        private string _connection = null;
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -21,9 +23,12 @@ namespace nflScoreApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var builder = new NpgsqlConnectionStringBuilder(Configuration.GetConnectionString("DefaultConnection"));
+            builder.Password = Configuration["DbPassword"];
+            _connection = builder.ConnectionString;
 
             services.AddControllers();
-            services.AddDbContext<nflScoreContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"))););
+            services.AddDbContext<nflScoreContext>(options => options.UseNpgsql(_connection));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "nflScoreApi", Version = "v1" });
