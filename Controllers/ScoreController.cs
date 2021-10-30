@@ -5,7 +5,7 @@ using nflScoreApi.Models;
 namespace nflScoreApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ScoreController : ControllerBase
     {
         public ScoreController()
