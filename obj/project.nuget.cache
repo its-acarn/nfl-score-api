@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nlO+9lx8VLU3XhEjamUX+U8/niO9yYoNcG+RbFcWk9MAPCvy5xHunfSofW8JiiE6uEOxfKMw7Rjai5y1evf5Yg==",
+  "dgSpecHash": "rc76fxRUP7T/fLlL4yNRdmfebIdTrj5w3hbwd5QOHxByMgy4sqTTCjW0yi1TX4/WDGUp7ozDGo/9SDcMbEhDxQ==",
   "success": true,
   "projectFilePath": "/Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/nflScoreApi.csproj",
   "expectedPackageFiles": [
@@ -64,8 +64,8 @@
     "/Users/andrewcarnaghan/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/Users/andrewcarnaghan/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/Users/andrewcarnaghan/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
-    "/Users/andrewcarnaghan/.nuget/packages/npgsql/4.0.0/npgsql.4.0.0.nupkg.sha512",
-    "/Users/andrewcarnaghan/.nuget/packages/npgsql.entityframeworkcore.postgresql/2.1.0/npgsql.entityframeworkcore.postgresql.2.1.0.nupkg.sha512",
+    "/Users/andrewcarnaghan/.nuget/packages/npgsql/5.0.0/npgsql.5.0.0.nupkg.sha512",
+    "/Users/andrewcarnaghan/.nuget/packages/npgsql.entityframeworkcore.postgresql/5.0.0/npgsql.entityframeworkcore.postgresql.5.0.0.nupkg.sha512",
     "/Users/andrewcarnaghan/.nuget/packages/npgsql.entityframeworkcore.postgresql.design/1.1.0/npgsql.entityframeworkcore.postgresql.design.1.1.0.nupkg.sha512",
     "/Users/andrewcarnaghan/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/andrewcarnaghan/.nuget/packages/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -175,7 +175,6 @@
     "/Users/andrewcarnaghan/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/Users/andrewcarnaghan/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/andrewcarnaghan/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
-    "/Users/andrewcarnaghan/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
     "/Users/andrewcarnaghan/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
     "/Users/andrewcarnaghan/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/andrewcarnaghan/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",

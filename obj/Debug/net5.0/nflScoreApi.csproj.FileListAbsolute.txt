@@ -310,3 +310,7 @@
 /Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/obj/Debug/net5.0/ref/nflScoreApi.dll
 /Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/obj/Debug/net5.0/nflScoreApi.pdb
 /Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/obj/Debug/net5.0/nflScoreApi.genruntimeconfig.cache
+/Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+/Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/bin/Debug/net5.0/Npgsql.dll
+/Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/andrewcarnaghan/Desktop/dev/projects/nflScore/nflScoreApi/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll

@@ -1003,33 +1003,31 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Npgsql/4.0.0": {
+      "Npgsql/5.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.5.0",
-          "System.Threading.Tasks.Extensions": "4.5.0",
-          "System.ValueTuple": "4.5.0"
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
         },
         "compile": {
-          "lib/netstandard2.0/Npgsql.dll": {}
+          "lib/net5.0/Npgsql.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Npgsql.dll": {}
+          "lib/net5.0/Npgsql.dll": {}
         }
       },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/2.1.0": {
+      "Npgsql.EntityFrameworkCore.PostgreSQL/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.1.0",
-          "Microsoft.EntityFrameworkCore.Abstractions": "2.1.0",
-          "Microsoft.EntityFrameworkCore.Relational": "2.1.0",
-          "Npgsql": "4.0.0"
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.0",
+          "Npgsql": "5.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+          "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+          "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
         }
       },
       "Npgsql.EntityFrameworkCore.PostgreSQL.Design/1.1.0": {
@@ -2794,15 +2792,6 @@
         },
         "compile": {
           "ref/netstandard1.2/System.Threading.Timer.dll": {}
-        }
-      },
-      "System.ValueTuple/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.Windows.Extensions/4.7.0": {
@@ -4640,37 +4629,37 @@
         "newtonsoft.json.nuspec"
       ]
     },
-    "Npgsql/4.0.0": {
-      "sha512": "+8E1qI9+dPuJwNnWVKqM5Y/XIZMqyNfVrlXmvqZY9XZ8t+wnGvZKqgz/BfbOXwAurunacG7xF9jWyh7AgWOnVQ==",
+    "Npgsql/5.0.0": {
+      "sha512": "kLhzs5OVkljEO6eTSnhaYxY+Cej1hcS7cOb4gP7gylKc5CMMTfmsGGdUW7Ooj5XjeWgx67h9/bj67XjBBlBPxg==",
       "type": "package",
-      "path": "npgsql/4.0.0",
+      "path": "npgsql/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net45/Npgsql.dll",
-        "lib/net45/Npgsql.pdb",
-        "lib/net45/Npgsql.xml",
-        "lib/net451/Npgsql.dll",
-        "lib/net451/Npgsql.pdb",
-        "lib/net451/Npgsql.xml",
+        "lib/net5.0/Npgsql.dll",
+        "lib/net5.0/Npgsql.xml",
+        "lib/netcoreapp3.1/Npgsql.dll",
+        "lib/netcoreapp3.1/Npgsql.xml",
         "lib/netstandard2.0/Npgsql.dll",
-        "lib/netstandard2.0/Npgsql.pdb",
         "lib/netstandard2.0/Npgsql.xml",
-        "npgsql.4.0.0.nupkg.sha512",
-        "npgsql.nuspec"
+        "lib/netstandard2.1/Npgsql.dll",
+        "lib/netstandard2.1/Npgsql.xml",
+        "npgsql.5.0.0.nupkg.sha512",
+        "npgsql.nuspec",
+        "postgresql.png"
       ]
     },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/2.1.0": {
-      "sha512": "VuyoXIZnJ85HErpibabzJsiY/Na9x+auBJl9Uz++q36elDRAE6llW1O2pJec+N8O1m55qc0ouxvVHGJFsxaH1A==",
+    "Npgsql.EntityFrameworkCore.PostgreSQL/5.0.0": {
+      "sha512": "SGLNTyrC9kuCbrYG2kFZGhOE/sq+EekxgpvRlnJIDQ4kriQrtT2pkrI9Wuox8Wsa2Jvf9bHqbQ9pTKyXpx6BiQ==",
       "type": "package",
-      "path": "npgsql.entityframeworkcore.postgresql/2.1.0",
+      "path": "npgsql.entityframeworkcore.postgresql/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
-        "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.pdb",
-        "npgsql.entityframeworkcore.postgresql.2.1.0.nupkg.sha512",
-        "npgsql.entityframeworkcore.postgresql.nuspec"
+        "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
+        "npgsql.entityframeworkcore.postgresql.5.0.0.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.nuspec",
+        "postgresql.png"
       ]
     },
     "Npgsql.EntityFrameworkCore.PostgreSQL.Design/1.1.0": {
@@ -9064,50 +9053,6 @@
         "system.threading.timer.nuspec"
       ]
     },
-    "System.ValueTuple/4.5.0": {
-      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
-      "type": "package",
-      "path": "system.valuetuple/4.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net461/System.ValueTuple.dll",
-        "lib/net461/System.ValueTuple.xml",
-        "lib/net47/System.ValueTuple.dll",
-        "lib/net47/System.ValueTuple.xml",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.0/System.ValueTuple.dll",
-        "lib/netstandard1.0/System.ValueTuple.xml",
-        "lib/netstandard2.0/_._",
-        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
-        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
-        "lib/uap10.0.16299/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net461/System.ValueTuple.dll",
-        "ref/net47/System.ValueTuple.dll",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard2.0/_._",
-        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
-        "ref/uap10.0.16299/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.valuetuple.4.5.0.nupkg.sha512",
-        "system.valuetuple.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Windows.Extensions/4.7.0": {
       "sha512": "CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "type": "package",
@@ -9390,7 +9335,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
       "NpgSql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.0",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 2.1.0",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -9459,7 +9404,7 @@
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
-            "version": "[2.1.0, )"
+            "version": "[5.0.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
